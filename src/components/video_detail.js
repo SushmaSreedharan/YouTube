@@ -11,7 +11,7 @@ const VideoDetail = ({ video }) => {
   return (
     <div >
       <div >
-        <iframe src={url} />
+        <iframe className="main-video" src={url} />
       </div>
       <div className="details">
         <div>{video.snippet.title}</div>
